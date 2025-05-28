@@ -1,0 +1,33 @@
+Pandas is a powerful and popular Python library designed for data manipulation and data analysis.
+
+Series - A one-dimensional labeled array that can hold any data type. Each item in the series has a unique index.
+       - It is used to track changes or patterns over time.
+
+DataFrame - A two-dimensional labelled data structure.
+          - It consists of rows and columns where rows has indices and cols has names.
+
+encoding - utf-8
+         - latin1
+
+If the data is stored over the google cloud then we could use a library name (gcsfs) to read data directly from there.
+
+For dealing with the rows of the data .. there are 2 methods 
+1. head(n) -- from top 
+2. tail(n) -- from bottom 
+.. here n is the number of rows 
+
+If we do not provide the value of n then it will give 5 rows by default.
+
+
+info() method
+1. It gives number of rows and columns of the DataFrame
+2. It will give column names
+3. will provide data types
+4. non null counts
+5. memory usuage of the DataFrame
+
+
+describe() method 
+it is used for providing the summary of the dataframe 
+
+shape is used for getting the number of rows and columns -- it return tuple
